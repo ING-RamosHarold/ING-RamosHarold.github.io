@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Ing_Ramos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU PRINCIPAL DE MI PORTAFOLIO - PROFESIONAL -->
+    <div class="contenedor-header">
+
+        <header>
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="" width="70px"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">ACERCA DE</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTAME</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO-->
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+           <div class="contenedor-img">
+            <img src="images/hero.png" alt="">
+           </div> 
+           <h1>HAROLD RAMOS</h1>
+           <br>
+           <h3>Ingenierio de Software con I.A - Principiante en desarrollo Web</h3>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #2b00ff;"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram" style="color: #e15c14;"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin" style="color: #005eff;"></i></a>
+            <a href="#"><i class="fa-brands fa-square-whatsapp" style="color: #52cc00;"></i></a>
+            <a href="#"><i class="fa-solid fa-rss" style="color: #ff0000;"></i></a>
+        </div>
+    </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>¡Buenos días/tardes o noches a todos!</span>
+                Mi nombre es Harold, y me complace tener la oportunidad de compartir un poco sobre mí y mi trayectoria como estudiante en SENATI.
+                 Actualmente, estoy cursando el cuarto ciclo de la carrera de Ingeniería de Software, y me gustaría hablarles acerca de mi enfoque 
+                 particular en el desarrollo web.</p>
+        <div class="fila">
+            <!--DATOS PERSONALES-->
+            <div class="col">
+               <h3>Datos Personales</h3>
+               <ul>
+                  <li>
+                    <strong>Cumpleaños:</strong>
+                    11-06-2005
+                  </li>
+
+                  <li>
+                    <strong>Teléfono:</strong>
+                    +51 930 129 141
+                  </li>
+
+                  <li>
+                    <strong>Correo:</strong>
+                    haroldramos732@gmail.com
+                  </li>
+
+                  <li>
+                    <strong>Sitio Web:</strong>
+                    www.example.com
+                  </li>
+                  <li>
+                    <strong>Nacionalidad:</strong>
+                    Peruano
+                  </li>
+                  <li>
+                    <strong>Dirección:</strong>
+                    Urb.Las Magnolias 2da Etapa Mz.A Lt.3
+                  </li>
+
+                  <li>
+                    <strong>Cargo:</strong>
+                    <span>Desarrollador Web - Fronted</span>
+                  </li>
+               </ul>
+            </div>
+
+            <!-- INTERESES-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad" style="color: #ff7300;"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones" style="color: #0a64ff;"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane" style="color: #00fffb;"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    
+                    <div class="interes">
+                        <i class="fa-brands fa-windows" style="color: #0084ff;"></i>
+                        <span>WINDOWS</span>
+                    </div>
+                    
+
+                    <div class="interes">
+                        <i class="fa-solid fa-person-walking" style="color: #00fffb;"></i>
+                        <span>DEPORTES</span>
+                    </div>
+                    
+                    <div class="interes">
+                        <i class="fa-solid fa-book" style="color: #37ff00;"></i>
+                        <span>LIBROS</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-camera" style="color: #00ffbf;"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    
+                    <div class="interes">
+                        <i class="fa-solid fa-motorcycle" style="color: #337eff;"></i>
+                        <span>MOTOS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>
+            <a href="pdf/HaroldAlbert_RamosSalazar_CV.pdf" class="fa-solid fa-download" style="color: #ffffff" download="HaroldAlbert_RamosSalazar_CV.pdf"> Descargar CV</a>
+            <span class="overlay"></span>
+        </button>
+        <br>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS-->
+    
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- THECNICAL SKILLS-->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso php">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Illustrator & Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso IP">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>WIX</span>
+                        <div class="barra-skill">
+                            <div class="progreso wix">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>WORDPRESS</span>
+                        <div class="barra-skill">
+                            <div class="progreso wp">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>OTROS(Python - JAVA - MYSQL)</span>
+                        <div class="barra-skill">
+                            <div class="progreso os">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--PROFESSIONAL SKILLS-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso com">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso te">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso c">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso d">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Gestión de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso g">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                      <h4>SENATI / ETI</h4>
+                      <div class="casa">Escuela de tecnologias de la Información</div>  
+                      <span class="fecha">2022 - 2024</span>
+                      <p></p>
+                      <div class="conectori">
+                        <div class="circuloi"></div>
+                      </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>SENATI / ETI</h4>
+                        <div class="casa">Escuela de tecnologias de la Información</div>  
+                        <span class="fecha">2022 - 2024</span>
+                        <p></p>
+                        <div class="conectori">
+                          <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>SENATI / ETI</h4>
+                        <div class="casa">Escuela de tecnologias de la Información</div>  
+                        <span class="fecha">2022 - 2024</span>
+                        <p></p>
+                        <div class="conectori">
+                          <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencias de Trabajo</h3>
+                    <div class="item der">
+                      <h4>Frontend Developer</h4>
+                      <div class="casa">Escuela de tecnologias de la Información</div>  
+                      <span class="fecha">2022 - 2024</span>
+                      <p></p>
+                      <div class="conectord">
+                        <div class="circulod"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+
+    <section id="portafolio" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+               <div class="proyecto">
+                <img src="images/p1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+               </div> 
+
+               <div class="proyecto">
+                <img src="images/p2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+               </div> 
+
+               <div class="proyecto">
+                <img src="images/p3.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+               </div> 
+
+               <div class="proyecto">
+                <img src="images/p4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+               </div> 
+
+               <div class="proyecto">
+                <img src="images/p5.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+               </div> 
+
+               <div class="proyecto">
+                <img src="images/p6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+               </div> 
+               </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--formulario-->
+                <div class="col">
+                   <input type="text" placeholder="Ingresa tu nombre">
+                   <input type="text" placeholder="Ingresa tu teléfono">
+                   <input type="text" placeholder="Ingresa tu correo">
+                   <input type="text" placeholder="Tema">
+                   <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                   <button>
+                      Enviar Mensaje <i class="fa-solid fa-paper-plane" style="color: #005eff;"></i>
+                      <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- MAPA -->
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.7961210985527!2d-77.12364258967303!3d-11.988604740770933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cdc61f0f401b%3A0x7ac2c1e53c41559c!2sCa.%20C%C3%A1liz%2C%20Callao%2007031!5e0!3m2!1ses-419!2spe!4v1692154573573!5m2!1ses-419!2spe" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-circle-chevron-up" style="color: #ff000d;"></i>
+    </a>
+
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook" style="color: #2b00ff;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram" style="color: #e15c14;"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin" style="color: #005eff;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-whatsapp" style="color: #52cc00;"></i></a>
+        <a href="#"><i class="fa-solid fa-rss" style="color: #ff0000;"></i></a>
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
